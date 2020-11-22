@@ -7,11 +7,15 @@ Options:
 <arg1>            Takes any value (this is a required positional argument)
 --arg2=<arg2>     Takes any value (this is a required option)
 [--arg3=<arg3>]   Takes any value (this is an optional option)
-[<arg4>]   Takes any value (this is an optional positional option)
+[<arg4>]          Takes any value (this is an optional positional option)
 " -> doc
 
 library(docopt)
 opt <- docopt(doc)
+main <- functiion(opt) {
 print(opt)
 print(typeof(opt))
 print(opt$arg4)
+
+}
+main(opt)
