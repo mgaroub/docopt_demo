@@ -16,3 +16,12 @@ opt = docopt(__doc__)
 print(opt)
 print(type(opt))
 print(opt("<arg4>"))
+
+
+def manin(opt)
+    print(opt)
+    print(type(opt))
+    print(opt("<arg4>"))
+
+if__name__ == "__main":
+  main(opt)
